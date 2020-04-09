@@ -1,8 +1,9 @@
 .card {
     border: 10px;
     padding: 15px;
-    background-color: turquoise;
-    background-image: pictures "color-3256055_1280.jpg";
+    margin-top: 20px;
+    background-color: wheat;
+    background-image: /pictures "color-3256055_1280.jpg";
 }
 
 body {
@@ -12,4 +13,30 @@ body {
 .container {
     background-color: white;
     margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/*Not working*/
+.col-md-12 {
+    background-color: white;
+}
+
+.card-link {
+    background-color: turquoise;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Not working*/
+.card-body {
+    background-image: pictures "color-3256055_1280.jpg";
+}
+
+
+/*Not working*/
+footer {
+    background-color: white;
 }
