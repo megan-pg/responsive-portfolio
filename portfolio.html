@@ -10,16 +10,18 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-
-
+        .card-body {
+            background-color: aqua;
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">MEGAN</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand">MEGAN</a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -92,7 +94,10 @@
                         <div class="col-md-6">
                             <div class="card" style="width: 100%;">
                                 <div class="card-body">
-                                    <h5><a href="#" class="card-link">Other Content</a></h5>
+                                    <div class="alert alert-info" role="alert">
+                                        <a href="#" class="card-link">Other Content</a>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -102,11 +107,11 @@
         </div>
         </div>
     </main>
-    <footer>
-        <div class="alert alert-dark" role="alert">
-            <p>My Portfolio Copyright 2020</p>
-        </div>
-    </footer>
 </body>
+<footer>
+    <div class="alert alert-light" role="alert">
+        My Responsive Portfolio Copyright 2020
+    </div>
+</footer>
 
 </html>

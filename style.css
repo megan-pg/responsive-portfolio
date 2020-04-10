@@ -1,9 +1,8 @@
 .card {
-    padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: wheat;
-    background-image: /pictures "color-3256055_1280.jpg";
+    /*Not working*/
+    background-image: "http://placekitten.com/1400/200";
 }
 
 body {
@@ -28,16 +27,30 @@ body {
     padding-right: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
 
-
-/*Not working*/
 .card-body {
-    background-image: pictures "color-3256055_1280.jpg";
     margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 
 /*Not working*/
 footer {
     background-color: white;
+}
+
+/*Not working*/
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+navbar-brand {
+    color: white;
+    font-style: oblique;
+    background-color: aqua;
+
 }
