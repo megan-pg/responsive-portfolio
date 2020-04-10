@@ -1,6 +1,7 @@
 .card {
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 20px;
     /*Not working*/
     background-image: "http://placekitten.com/1400/200";
 }
@@ -10,7 +11,6 @@ body {
 }
 
 .container {
-    background-color: white;
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -48,9 +48,17 @@ hr {
     margin-right: auto;
 }
 
-navbar-brand {
+.navbar-brand {
     color: white;
-    font-style: oblique;
-    background-color: aqua;
+}
 
+/*Not working*/
+p {
+    padding: 10px;
+}
+
+/*Not working*/
+.card-text {
+    padding: 10px;
+    margin: 10px;
 }

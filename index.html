@@ -17,21 +17,20 @@
 
         /* Medium devices (tablets, 768px and up)*/
         @media (min-width: 768px) {
-            body {}
+            nav {}
+
+            /*This is WRONG*/
+            @include float-left;
         }
 
         /*Large devices (desktops, 992px and up)*/
         @media (min-width: 992px) {
-            body {}
+            nav {}
         }
 
         /*Extra large devices (large desktops, 1200px and up)*/
         @media (min-width: 1200px) {
-            body {}
-        }
-
-        @media screen and (min-width: 768px) {
-            body {}
+            nav {}
         }
 
         hr {
@@ -42,8 +41,42 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="row"></div>
+                <!-- As a heading -->
+                <nav class="navbar navbar-light bg-light">
+                    <span class="navbar-brand mb-0 h1">Navbar</span>
+                </nav>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <div class="row"></div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        Navbar text with an inline element
+                    </span>
+            </div>
+            </nav>
+        </div>
+    </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">MEGAN</a>
+        <nav class="navbar navbar-light" style="background-color: aqua;">
+            <!-- Navbar content -->
+            <a class="navbar-brand">MEGAN</a>
+        </nav>
         <button class="navbar-toggler" type="button" aria-controls="navbarNavDropdown" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -65,26 +98,23 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                     <div class="card" style="width: 100%;">
                         <h3 class="card-title">About Me</h3>
                         <hr>
-                        <img src="pictures/tulips-4933492_1280.jpg" class="card-img-top"
-                            alt="Image of tulips in a field at sunset">
                         <div class="card-body">
-                            <p class="card-text">Congratulations - you just destroyed the Enterprise. You did exactly
-                                what
-                                you had to
-                                do. You considered all your options, you tried every alternative and then you made the
-                                hard
-                                choice. I'd
-                                like to think that I haven't changed those things, sir. Travel time to the nearest
-                                starbase?
-                                Commander
-                                William Riker of the Starship Enterprise. This is not about revenge. This is about
-                                justice.
-                                Damage
-                                report! We have a saboteur aboard.</p>
+                            <img src="pictures/tulips-4933492_1280.jpg" class="card-img-top"
+                                alt="Image of tulips in a field at sunset" style="float:left; width:70%" /></a>
+                            <p class="card-text">
+                                <p>Now we know what they mean by 'advanced' tactical training. But the probability of
+                                    making a six is no greater than that of rolling a seven. Well, that's certainly good
+                                    to
+                                    know. And blowing into maximum warp speed, you appeared for an instant to be in two
+                                    places at once. Sure. You'd be surprised how far a hug goes with Geordi, or Worf.
+                                    You
+                                    bet I'm agitated! I may be surrounded by insanity, but I am not insane. Sorry, Data.
+                                </p>
+                            </p>
                         </div>
                     </div>
 
@@ -94,7 +124,7 @@
 </body>
 <footer>
     <nav class="navbar sticky-bottom navbar-light bg-light">
-        <a class="navbar-brand" href="#">My Responsive Portfolio Copyright 2020</a>
+        <a class="navbar-brand">My Responsive Portfolio Copyright 2020</a>
     </nav>
 </footer>
 
