@@ -15,27 +15,29 @@ body {
 
 
 .card-link {
-    background-color: aqua;
     color: white;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
     padding-bottom: 10px;
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+
 }
 
 .card-body {
-    margin-bottom: 30px;
-    margin-bottom: 30px;
-
+background-color: aqua;
+margin: 0;
+margin-top: 0 !important;
 }
+.mt-0 {
+    margin-top: 0 !important;
+  }
 
 
-/*Not working*/
-footer {
-    background-color: white;
-}
-
-/*Not working*/
 hr {
     width: 90%;
     margin-left: auto;
@@ -45,42 +47,27 @@ hr {
 .navbar-brand {
     color: white;
 }
-
-/*Not working*/
-p {
-    padding: 10px;
-}
-
-/*Not working*/
-.card-text {
-    padding: 10px;
-    margin: 10px;
-}
-
-.menu-table {
-    margin: 0px;
-}
-
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-}
-
-    
+ 
     .portfolio-back {
         background-color: white;
     }
 
     h2 {
         color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: lighter;
     }
     
     h3 {
         color: aqua;
     }
 
+    h4 {
+        color: purple;
+    }
+
     h6 {
-        color: white;
+        color: purple;
     }
 
     #boarder {
@@ -88,4 +75,6 @@ p {
         padding: 15px;
     }
 
-    
+    .card-text {
+        padding-left: 10px;
+    }
