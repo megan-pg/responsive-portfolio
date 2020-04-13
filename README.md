@@ -5,3 +5,5 @@ The Portfolio page has 5 cards with images inside them. The cards are set to a 6
 The Contact page is similar to the About page: it is set at for 10 columns at lg and md viewports to create a margin and set to a 12 column for the sm and xs viewport settings. 
 The nav bar at the top and the footer (sticky nav bar at the bottom) are set to 12 columns in lg, md, sm, and xs for consistancy and therefore shouldn't change. 
 There is a pictures file and additional css style sheet added to the assignment to help with the personalized branding of the webpages, such as the aqua color, serif font, and padding and margin choices. 
+ https://github.com/megan-pg/responsive-portfolio.git
+ https://megan-pg.github.io/responsive-portfolio/
